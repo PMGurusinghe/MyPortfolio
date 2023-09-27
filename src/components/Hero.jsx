@@ -31,7 +31,7 @@ const Hero = () => {
             <p className='max-w-2xl font-light'>Experienced professional Quality Assurance Engineer with 2 years of experience in software quality assurance, manual testing and currently learning test automation.</p>
            
             {/* social icons */}
-            <div className='flex justify-evenly py-8 lg:py-16 text-3xl w-full md:w-1/2'>
+            <div className='flex items-center justify-evenly py-8 lg:py-16 text-3xl w-full md:w-1/2'>
                 {SOCIAL.map(({ id, Link, icon }) => (
                     <a
                         href={Link}
