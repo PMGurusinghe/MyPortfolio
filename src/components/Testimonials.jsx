@@ -8,35 +8,23 @@ const Testimonials = () => {
         {
             id: 1,
             image: avatar,
-            name:"Jhon Doe",
-            comment:"Experienced professional Quality Assurance Engineer with 2 years of experience in software quality assurance, manual testing and currently learning test automation.",
+            name:"John Smith, Product Manager:",
+            comment:"I praises the meticulous attention to detail, proactive approach, and vast knowledge that Pamod brings to the table. The result? Significantly improved software quality and seamless, bug-free releases. Pamod is hailed as an invaluable asset to any team.",
         },
         {
             id: 2,
             image: avatar,
-            name:"Jhon Doe",
-            comment:"Experienced professional Quality Assurance Engineer with 2 years of experience in software quality assurance, manual testing and currently learning test automation.",
-        },
-        {
-            id: 3,
-            image: avatar,
-            name:"Jhon Doe",
-            comment:"Experienced professional Quality Assurance Engineer with 2 years of experience in software quality assurance, manual testing and currently learning test automation.",
-        },
-        {
-            id: 4,
-            image: avatar,
-            name:"Jhon Doe",
-            comment:"Experienced professional Quality Assurance Engineer with 2 years of experience in software quality assurance, manual testing and currently learning test automation.",
-        },
+            name:"David Brown, QA Lead:",
+            comment:"I appreciates Pamod's deep understanding of testing methodologies and effective communication, making their collaboration seamless. David emphasizes Pamod's consistent delivery of high-quality work, exceeding expectations, and acknowledges them as a top-tier QA professional.",
+        }
     ];
     return (
     <Section 
     title='Testimonials' 
-    subtitle='Experienced professional Quality Assurance Engineer with 2 years of experience in software quality assurance, manual testing and currently learning test automation.'>
+    subtitle='Read what industry professionals and clients have to say about their experience working with me as a QA Engineer.'>
         <div className='max-w-xl flex flex-col gap-2'>
             {TESTIMONIALS.map(({id, image, name, comment}) => (
-                <div className='flex p-4 mt-4 justify-center items-center rounded-xl shadow-md dark:shadow-gray-300 duration-300 ease-in-out hover:scale-110'>
+                <div key={id} className='flex p-4 mt-4 justify-center items-center rounded-xl shadow-md dark:shadow-gray-300 duration-300 ease-in-out hover:scale-110'>
                     <div className='w-1/3'>
                         <img src={image} alt={name} className="w-20 object-cover ml-10 pt-2"/>
                     </div>

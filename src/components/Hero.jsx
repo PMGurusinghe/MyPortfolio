@@ -1,27 +1,17 @@
 import React from 'react'
-import { FaTwitter, FaFacebook, FaLinkedin, FaArrowDown, FaWhatsapp } from 'react-icons/fa'
+import { FaLinkedin, FaArrowDown, FaWhatsapp } from 'react-icons/fa'
 import avatar from "../assets/My_img 2.png"
 
 const Hero = () => {
 
     const SOCIAL = [
-       {
+        {
             id: 1,
-            Link: "https://twitter.com/PamodGurusinghe",
-            icon: <FaTwitter />,
-        },
-        {
-            id: 2,
-            Link: "https://www.facebook.com/profile.php?id=100007381516909&mibextid=D4KYlr",
-            icon: <FaFacebook />,
-        },
-        {
-            id: 3,
             Link: "https://www.linkedin.com/in/pamod-gurusinghe/",
             icon: <FaLinkedin />,
         },
         {
-            id: 4,
+            id: 2,
             Link: "https://wa.me/message/KU2BHZNWXZIGD1",
             icon: <FaWhatsapp />,
         }
@@ -59,7 +49,7 @@ const Hero = () => {
                     <a 
                     href='/Pamod Gurusinghe CV.pdf' 
                     download={true}
-                    className="flex items-center text-2xl justify-center mt-10 bg-[#8c52ff] to-black text-white py-2 rounded-lg duration-300 ease-in-out hover:scale-110">Resume</a>
+                    className="flex items-center text-2xl justify-center mt-10 bg-[#8c52ff] to-black text-white py-2 rounded-lg duration-300 ease-in-out hover:scale-110">Download Resume</a>
 
                 </div>
                {/* arrow down animation */}

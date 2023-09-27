@@ -1,26 +1,16 @@
 import React from 'react'
 import Section from './common/Section'
-import {FaTwitter, FaFacebook, FaLinkedin, FaWhatsapp } from 'react-icons/fa'
+import {FaLinkedin, FaWhatsapp } from 'react-icons/fa'
 import contact from '../assets/mobile.png'
 const Contact = () => {
     const SOCIAL = [
         {
             id: 1,
-            Link: "https://twitter.com/PamodGurusinghe",
-            icon: <FaTwitter />,
-        },
-        {
-            id: 2,
-            Link: "https://www.facebook.com/profile.php?id=100007381516909&mibextid=D4KYlr",
-            icon: <FaFacebook />,
-        },
-        {
-            id: 3,
             Link: "https://www.linkedin.com/in/pamod-gurusinghe/",
             icon: <FaLinkedin />,
         },
         {
-            id: 4,
+            id: 2,
             Link: "https://wa.me/message/KU2BHZNWXZIGD1",
             icon: <FaWhatsapp />,
         }
@@ -28,7 +18,7 @@ const Contact = () => {
   return (
    <Section  
    title="Contact" 
-   subtitle="There are the ways you can get in touch with me.Hope to heare from you soon 😍">
+   subtitle="Hope to heare from you soon! 😍">
     
     <div className=' flex flex-col items-center justify-center gap-8 text text-center'>
 
@@ -42,7 +32,7 @@ const Contact = () => {
             </div>
             <div className='flex w-full items-center justify-evenly text-3xl mt-10'>
             {SOCIAL.map(({id, Link, icon,}) => (
-                <a href={Link} target="_blank" rel='noopener noreferrer' className='duration-200 ease-in-out hover:text-[#8c52ff]'>{icon}</a>
+                <a key={id} href={Link} target="_blank" rel='noopener noreferrer' className='duration-200 ease-in-out hover:text-[#8c52ff]'>{icon}</a>
                 ))}
             </div>
             {/* bottom form
