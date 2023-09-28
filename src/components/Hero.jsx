@@ -1,5 +1,6 @@
 import React from 'react'
 import { FaLinkedin, FaArrowDown, FaWhatsapp } from 'react-icons/fa'
+import {TbBrandFiverr} from 'react-icons/tb'
 import avatar from "../assets/My_img 2.png"
 
 const Hero = () => {
@@ -9,6 +10,11 @@ const Hero = () => {
             id: 1,
             Link: "https://www.linkedin.com/in/pamod-gurusinghe/",
             icon: <FaLinkedin />,
+        },
+        {
+            id: 2,
+            Link: "https://www.fiverr.com/s/rlPrR0",
+            icon: <TbBrandFiverr />,
         },
         {
             id: 2,

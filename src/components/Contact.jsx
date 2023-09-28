@@ -1,6 +1,7 @@
 import React from 'react'
 import Section from './common/Section'
-import {FaLinkedin, FaWhatsapp } from 'react-icons/fa'
+import {FaLinkedin, FaWhatsapp} from 'react-icons/fa'
+import { TbBrandFiverr } from "react-icons/tb";
 // import contact from '../assets/mobile.png'
 const Contact = () => {
     const SOCIAL = [
@@ -11,9 +12,15 @@ const Contact = () => {
         },
         {
             id: 2,
+            Link: "https://www.fiverr.com/s/rlPrR0",
+            icon: <TbBrandFiverr />,
+        },
+        {
+            id: 3,
             Link: "https://wa.me/message/KU2BHZNWXZIGD1",
             icon: <FaWhatsapp />,
         }
+      
     ];
   return (
    <Section  

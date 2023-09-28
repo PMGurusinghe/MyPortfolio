@@ -17,8 +17,8 @@ function App() {
       <main className="bg-white dark:bg-gray-900 text-gray-900 dark:text-white">
       <Hero />
       <Services />
-      <Portfolio />
-      <Testimonials/>
+      {/* <Portfolio />
+      <Testimonials/> */}
       <Contact/>
       <Footer/>
       </main>
