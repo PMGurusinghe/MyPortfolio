@@ -27,7 +27,7 @@ const Hero = () => {
     return (
         <section className='min-h-screen flex flex-col justify-start items-center p-5 text-center'>
             <h2 className='text-5xl text-[#8c52ff] uppercase font-bold'>Pamod Gurusinghe</h2>
-            <h3 className='py-3 text-2xl'>Associate QA Engineer</h3>
+            <h3 className='py-3 text-2xl'>QA Engineer</h3>
             <p className='max-w-2xl font-light'>Experienced professional Quality Assurance Engineer with 2 years of experience in software quality assurance, manual testing and currently learning test automation.</p>
            
             {/* social icons */}

@@ -1,7 +1,7 @@
 import React from 'react'
 import Section from './common/Section'
 import {FaLinkedin, FaWhatsapp } from 'react-icons/fa'
-import contact from '../assets/mobile.png'
+// import contact from '../assets/mobile.png'
 const Contact = () => {
     const SOCIAL = [
         {
@@ -23,11 +23,11 @@ const Contact = () => {
     <div className=' flex flex-col items-center justify-center gap-8 text text-center'>
 
             <div className=''>
-                 <img src={contact} alt='contact info' className="w-32 h-32"/>
+                 {/* <img src={contact} alt='contact info' className="w-32 h-32"/> */}
             </div>
             <div>
                 <p className='max-w-xs md:max-w-lg font-extralight'> 
-                    I am open to talkregarding freelancing or full-time opportunities.<br></br>Feel free to contact me using your preferred medium.
+                    I am open to talk regarding freelancing or full-time opportunities.<br></br>Feel free to contact me using your preferred medium.
                 </p>
             </div>
             <div className='flex w-full items-center justify-evenly text-3xl mt-10'>

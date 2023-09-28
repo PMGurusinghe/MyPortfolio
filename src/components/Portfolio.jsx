@@ -64,7 +64,8 @@ const Portfolio = () => {
     ];
 
     return (
-        <Section
+        
+        <Section 
             title="Portfolio"
             subtitle='Experienced professional Quality Assurance Engineer with 2 years of experience in software quality assurance, manual testing and currently learning test automation.'>
             <div className='grid gap-8 lg:gap-14 lg:grid-cols-2'>
