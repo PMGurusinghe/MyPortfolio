@@ -13,7 +13,7 @@ const Hero = () => {
         },
         {
             id: 2,
-            Link: "https://www.fiverr.com/s/rlPrR0",
+            Link: "https://www.fiverr.com/s/L6v0rL",
             icon: <TbBrandFiverr />,
         },
         {
